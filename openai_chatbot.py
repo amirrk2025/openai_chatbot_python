@@ -1,8 +1,8 @@
 import openai
 
-API_KEY = "tpsg-7JxYIqr3tGlpZ0R1RLPlZ9chi0rS1L5"
+API_KEY = "api key"
 openai.api_key = API_KEY
-openai.api_base = "https://api.metisai.ir/openai/v1"
+openai.api_base = "URL"
 
 messages_list = [
     {"role": "system", "content": "you are a helpful assistant"}
